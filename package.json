@@ -1,0 +1,21 @@
+{
+    "name": "zringbuf",
+    "version": "0.1.0",
+    "repo": "rikvdh/zringbuf",
+    "description": "Zero-allocation ringbuffer",
+    "license": "MIT",
+    "keywords": [
+        "zeroallocation",
+        "memory",
+        "data",
+        "buffer",
+        "buf",
+        "ringbuffer",
+        "ringbuf",
+        "ring"
+    ],
+    "src": [
+        "zringbuf.h",
+        "zringbuf.c"
+    ]
+}
