@@ -39,7 +39,7 @@ bool zringbuf_dequeue(struct zringbuf *buffer, char *data)
 		return false;
 	}
 
-	// Optionally skip reading data and just 'consume' the buffer
+	/* Optionally skip reading data and just 'consume' the buffer */
 	if (data != NULL) {
 		*data = buffer->buffer[buffer->tail_index];
 	}
